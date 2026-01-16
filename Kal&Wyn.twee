@@ -1,0 +1,286 @@
+:: StoryTitle
+ExampleStory
+
+
+:: StoryData
+{
+  "ifid": "F9BE3C36-EE79-4476-9607-0518AB61A27C",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Intro",
+  "zoom": 1
+}
+
+
+:: 2 to Backdoor {"position":"1725,225","size":"100,100"}
+''(text-colour:red)[Kal ]''nods to you as you both head for the back door.
+
+The door is protected with a heavy padlock but you make quick work of it.
+
+As the door swings open you turn to wink at your partner.
+
+Kal rolls his eyes at you, and as you step inside you //''trip''// over a toolbox left near the door.
+
+(text-colour:orange)[Someone will have heard that.]
+
+
+[[Rush to find the foreman's office|Obstacle 2]]
+
+
+:: Escape {"position":"3250,350","size":"100,100"}
+You turn and rush for the exit, leaving the gravely wounded shapeshifter on the ground of the factory floor.
+
+You manage to slip away and lose any attention you may have had.
+
+The evening smoggy air meets you as you escape, your heart beating.
+
+Was that the right decision?
+
+What happens now?
+
+
+
+The End.
+
+[[Play again|Intro]]
+
+
+:: Help Kal {"position":"2775,400","size":"100,100"}
+You rush out of the room to help your partner.
+
+You unhook your curved sword from your belt and attack the large man looming over (text-colour:red)[''Kal''], who's crumpled on the ground bleeding.
+
+The man leaves as the combination of you and (text-colour:red)[''Kal''] putting up a fight has left him wounded. 
+
+The man backs up into the shadow yelling over his shoulder for backup.
+
+It's then that you turn to look at (text-colour:red)[''Kal''], and realise your partner in crime is not who you thought he was.
+
+A grey-skinned pupilless //''shapeshifter''// stares back at you, horrified.
+
+More booming voices and footsteps echo through the halls as people start to rush in, determined to detain you. 
+
+//What do you do?//
+
+[[Save "Kal?"]]
+[[Escape]]
+
+
+:: Insight 1 {"position":"1150,225","size":"100,100"}
+(text-colour:(hsl:0,0.8039,0.5,0.6))+(bg:black)[''Kal:'' "I just think we should take a different approach, maybe stick together. This isn't like anything we've ever done before"]
+
+(text-colour:(hsl:210,0.8039,0.5,0.6))[''You: ''"Alright, I hear ya, Let's plan it out when we get there."]
+
+[[ "The factory is just around the corner, let's go."|Obstacle 1]] 
+
+
+:: Insight 2 {"position":"1150,425","size":"100,100"}
+(text-colour:(hsl:0,0.8039,0.5,0.6))+(bg:black)[''Kal:'' "I've got an awful feeling about this Wyn."]
+
+(text-colour:(hsl:210,0.8039,0.5,0.6))[''You: ''"Listen we will be in and out, nobody will know we were even there."]
+
+(text-colour:(hsl:0,0.8039,0.5,0.6))+(bg:black)[''Kal:'' "... 
+
+Fine"]
+
+[[  "The factory is just around the corner, let's go."|Obstacle 1]] 
+
+
+:: Insight 3 {"position":"1150,625","size":"100,100"}
+(text-colour:(hsl:0,0.8039,0.5,0.6))+(bg:black)[''Kal:'' "C'mon, we're expendable, and the ''Reapers'' know that."]
+
+(text-colour:(hsl:210,0.8039,0.5,0.6))[''You: ''"Well then we just gotta show them we aren't"]
+
+[[ "The factory is just around the corner, let's go."|Obstacle 1]] 
+
+
+:: Intro {"position":"725,425","size":"100,100"}
+The air of the city is thick with oily rain and the smell of iron. 
+
+(text-colour:blue)[''You''] and your partner (text-colour:red)[''Kal''] have been sent on a special assignment in a foreign country by your theives guild the ''Dusk Reapers''.
+
+Your mission is simple, find the set of blueprints marked with the symbol of a ''Sun'', and get out.
+
+(text-colour:red)[''Kal''] has been anxious for the entire journey here. usually you are able to talk him down from his anxiety, however recently he's been distant, though he won't say why. 
+
+[[ Continue into the streets |Start Interaction]]
+
+
+:: Kal Window {"position":"1725,425","size":"100,100"}
+''(text-colour:red)[Kal]'' reluctantly heads to the boarded up window you point out to him.
+
+You focus you attention on the heavy lock hanging from the door. 
+
+It's definitely well made, but you've broken into more complex places before.
+
+The door swings open as you stow your lockpick away.
+
+Heading inside you hear the //''clattering''// of wooden boards from accross the floor as (text-colour:red)[Kal] climbs through the window.
+
+(text-colour:orange)[Someone will have heard that.]
+
+[[Rush to find the foreman's office|Obstacle 2]]
+
+
+:: Kal distracts {"position":"2225,425","size":"100,100"}
+(text-colour:red)[''Kal''] runs to distract, and you turn to focus on the task before you.
+
+You manage to pick the lock, and open the door to a dimly lit messy office. 
+
+[[Rush into the office and search for the blueprints|Obstacle 3]]
+
+
+:: Keep searching {"position":"2775,225","size":"100,100"}
+Turning your attention back to your search, you turn the room over and find what you were looking for.
+
+A highly detailed and complicated set of blueprints with the symbol of a ''Sun'', was deeply buried under countless documents in the bottom droor of the desk.
+
+Just as you finish rolling them up you hear the sound of a fight in the other room.
+
+Sprinting out to help you see a large muscular man turning and walking into the shadows yelling for someone else. 
+
+You look down to see (text-colour:red)[''Kal''] crumpled in a pool of blood, as he turns to look up at you.
+
+It is in that moment you realise your partner in crime is not who you thought he was, as a grey-skinned pupilless //''shapeshifter''// stares at you, horrified.
+
+More booming voices and footsteps echo through the halls as people start to rush in, determined to detain you. 
+
+//What do you do?//
+
+[[Save "Kal?"]]
+[[Escape]]
+
+
+:: Listen {"position":"2775,600","size":"100,100"}
+The conversation seems to be heating up before you hear the drawing of weapons and footsteps rushing away hurriedly.
+
+You sprint out to find a bloodied (text-colour:red)[''Kal''] laying on the floor.
+
+Only as he turns to you, an unfamiliar face stares back.
+
+It is in that moment you realise your partner in crime is not who you thought he was, as a grey-skinned pupilless //''shapeshifter''// stares back at you, horrified.
+
+More booming voices and footsteps echo through the halls as people start to rush in, determined to detain you. 
+
+//What do you do?//
+
+[[Save "Kal?"]]
+[[Escape]]
+
+
+:: Obstacle 1 {"position":"1475,425","size":"100,100"}
+You arrive at the location within the lower city you were told to go.
+
+It's about this time that you suddenly realize you have no idea what entrance to use.
+
+You and (text-colour:red)[''Kal''] scout the building and find two suitable entrances.
+
+//What do you do?//
+
+[[ Both of you go in the backdoor, picking the lock. |2 to Backdoor]]
+[[ Send Kal to the window, and try the backdoor alone. |Kal Window]]
+[[ Send Kal to the backdoor, and go through the window yourself. |Wyndow]]
+
+
+
+:: Obstacle 2 {"position":"1975,425","size":"100,100"}
+It takes a minute or two but you find the foremans office and begin to pick at the dock on the door once again.
+
+You both turn as you hear heavy'' footsteps'' echoing from further into the large open room.
+
+//What do you do?//
+
+[[Rush the lock and try to pick it before you are seen|Rush the Lock]]
+[[Send Kal to go distract|Kal distracts]]
+[[Let Kal pick the lock while you go distract|Wyn distracts]]
+
+
+:: Obstacle 3 {"position":"2525,425","size":"100,100"}
+You search through drawers and cabinets, but don't see any sign of a Sun symbol.
+
+You also notice that everything is written in a language you can't understand.
+
+The sound of the conversation between (text-colour:red)[''Kal '']and someone else is escalating aggressively.
+
+//What do you do?//
+
+[[Keep searching, it's gotta be here somewhere|Keep searching]]
+[[Go help Kal|Help Kal]]
+[[Stop and listen to the conversation|Listen]]
+
+
+:: Rush the Lock {"position":"2225,225","size":"100,100"}
+You attempt to rush yourself as you pick the lock.
+
+Your lockpick breaks, and you begin to panic.
+
+You look at each other and kick in the door.
+
+As you rush into the office''(text-colour:red)[ Kal ]''goes to distract the figure who's footsteps grow louder.
+
+[[Rush into the office and search for the blueprints|Obstacle 3]]
+
+
+:: Save "Kal?" {"position":"3250,475","size":"100,100"}
+You rush to the shapeshifters aid, and help them despite the figure being unrecognizable as Kal beyond the attire.
+
+Quick on your feet, you both manage to barely escape, though it does take a while to lose the factory men as they chase the both of you.
+
+The evening smoggy air meets you as you escape, your heart beating.
+
+Was that the right decision?
+
+What happens now?
+
+
+
+The End.
+
+
+[[Play again|Intro]]
+
+
+:: Start Interaction {"position":"925,425","size":"100,100"}
+(text-colour:(hsl:210,0.8039,0.5,0.6))[''You: ''"This Job should be easy."
+
+''You: ''"Right?"]
+
+(text-colour:(hsl:0,0.8039,0.5,0.6))+(bg:black)[''Kal:'' "Wyn, we ''never'' get the easy ones, why would this be any different?"]
+
+
+
+[["Yeah, you're right, this is gonna suck."->Insight 1]]
+
+[["That's reassuring, lighten up it'll be fine."->Insight 2]]
+
+[["Well maybe, but that just means they like us."->Insight 3]]
+
+
+:: Wyn distracts {"position":"2225,625","size":"100,100"}
+You turn to run into the dark and make a distraction, but hear Kal struggling with picking the lock in your stead.
+
+Turning around you decide it would be better to send ''(text-colour:red)[Kal]'' to distract.
+
+You notice he looks particularily nervous, until partial relief washes over his face as you signal him to go distract.
+
+He's never been this nervous before.
+
+You manage to get the door open and peer into the dimly lit office.
+
+
+[[Rush into the office and search for the blueprints|Obstacle 3]]
+
+
+:: Wyndow {"position":"1725,650","size":"100,100"}
+You send ''(text-colour:red)[Kal]'' to the backdoor alone while you try the window.
+
+The window isn't locked, but it is boarded up.
+
+with no other option you kick down the boards watching them //''clatter''// to the ground on the inside.
+
+(text-colour:orange)[Someone will have heard that.]
+
+You notice Kal from across the floor as you enter in to the darkened factory.
+
+
+[[Rush to find the foreman's office|Obstacle 2]]
